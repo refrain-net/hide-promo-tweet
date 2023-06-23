@@ -3,6 +3,6 @@
 requestAnimationFrame(function hide () {
     [...document.querySelectorAll('[data-testid="placementTracking"]')]
         .filter(element => [...element.querySelectorAll('span')].find(span => span.textContent === 'プロモーション'))
-        .map(el => el.style.display = 'none');
+        .map(element => element.remove());
     requestAnimationFrame(hide);
 });
