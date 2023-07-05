@@ -6,5 +6,5 @@
     "js": ["script.js"],
     "matches": ["https://twitter.com/*"]
   }],
-  "manifest_version": 2
+  "manifest_version": 3
 }
